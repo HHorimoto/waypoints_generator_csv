@@ -10,3 +10,7 @@
 .#*
 
 *.pyc
+
+# graphs
+/graphs/*
+!/graphs/.gitkeep
