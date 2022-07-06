@@ -9,6 +9,7 @@ import tf
 from visualization_msgs.msg import Marker
 from move_base_msgs.msg import MoveBaseActionGoal
 from geometry_msgs.msg import Quaternion
+from state.funcs import get_radian
 
 
 class MakerDataType(object):
@@ -21,13 +22,6 @@ class MakerDataType(object):
     CUBE_LIST = 6
     SPHERE_LIST = 7
     POINTS = 8
-
-def get_radian(x1, y1, x2, y2):
-    dx = x2 - x1
-    dy = y2 - y1
-    radian = math.atan2(dy, dx)
-    return radian
-
 
 def main():
     rospy.init_node("publish_maker")
