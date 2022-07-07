@@ -25,6 +25,7 @@ $ sudo apt-get install python-blessed # for key click
 
 ## How to Use
 The package provides three methods for generating waypoints, which can be selected via parameters in the launch file.
+The resulting csv file will be saved `graphs/`.
 
 ```shell
 $ roslaunch waypoints_generator_csv waypoints_generator_csv.launch
