@@ -73,5 +73,3 @@ when you press `Publish Point` button in rviz, the position will be saved as a w
 When the set distance and angle thresholds are exceeded, the script automatically saves the position as a waypoint.
 #### Demo video (In Preparation)
 [![](https://img.youtube.com/vi/Ruk2BLimv_E/0.jpg)](https://www.youtube.com/watch?v=Ruk2BLimv_E)
-## TO DO
-- [ ] Insert video demonstration of each method
