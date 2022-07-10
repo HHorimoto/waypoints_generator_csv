@@ -61,15 +61,15 @@ $ roslaunch waypoints_generator_csv publish_marker.launch
 
 ### key_click_csv - key_click(k) -
 when you press `Enter` key on the keyboard, this script saves the current robot position as a waypoint.
-#### Demo video (In Preparation)
+#### Demo video
 [![](https://img.youtube.com/vi/m_G_pSDUmiM/0.jpg)](https://www.youtube.com/watch?v=m_G_pSDUmiM)
 
 ### clicked_point_csv - clicked_point(c) -
 when you press `Publish Point` button in rviz, the position will be saved as a waypoint.
-#### Demo video (In Preparation)
+#### Demo video
 [![](https://img.youtube.com/vi/qLuP5EoUV-Y/0.jpg)](https://www.youtube.com/watch?v=qLuP5EoUV-Y)
 
 ### threshold_csv - threshold(t) -
 When the set distance and angle thresholds are exceeded, the script automatically saves the position as a waypoint.
-#### Demo video (In Preparation)
+#### Demo video
 [![](https://img.youtube.com/vi/Ruk2BLimv_E/0.jpg)](https://www.youtube.com/watch?v=Ruk2BLimv_E)
